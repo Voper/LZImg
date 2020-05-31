@@ -1,0 +1,56 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 80px;
+    width: 100%;
+    background: black;
+    text-align: center;
+    position: fixed;
+    z-index: 9;
+
+}
+.head-word{
+    height: 30px;
+    color: aliceblue;
+    float: left;
+    position: absolute;
+    margin-left: 30px;
+
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color: aliceblue;
+}
+a:visited{
+    color: aliceblue;
+}
+a:hover{
+    color: aliceblue;
+}
+a:active{
+    color: aliceblue;
+}
+
+.imgs{
+    top: 80px;
+    margin-bottom: 100px;
+    position: relative;
+
+}
+.imgs img{
+    width:49%;
+}
+.footter{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    background: black;
+    position: fixed;
+    bottom: 0;
+
+}
